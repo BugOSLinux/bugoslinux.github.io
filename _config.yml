@@ -12,7 +12,7 @@ contact-email: dropall@email.com # Email for contact page. Can be your email.
 author: HenryJr
 description: > # this means to ignore newlines until "baseurl:"
   beNice17 is a Jekyll theme. Suitable for personal Websites & Blogs.
-url: "https://bugoslinux.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bugoslinux.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 
 includes_dir: .
