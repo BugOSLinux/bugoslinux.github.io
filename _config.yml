@@ -6,10 +6,10 @@ url: https://bugoslinux.github.io/
 title: BugOS | Linux Distro
 email: dropall@email.com
 author: HenryJr
-description: > # "Write an awesome description for your new site here. 
+description: > # "Write an awesome description for your new site here.
   BugOS Linux é sem dúvida a distribuição mais popular no mundo inteiro.
 copyright: 'Copyright &copy; 2020 Henry Jr. All Rights Reserved.'
-credits: 'Credits: Henry Jr, Adão Duque, Presto, Marcelo Baptista, Henry, Gilgamesh e Reginaldo.'
+credits: 'Credits: <br>Henry Jr, Adão Duque, Presto, Marcelo Baptista, Henry, Gilgamesh e Reginaldo.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
