@@ -9,11 +9,11 @@
 title: BugOS Linux # Title of your Website. Eg: Viet Anh's Website
 email: dropall@email.com # Your email
 contact-email: dropall@email.com # Email for contact page. Can be your email.
-author: @henryjr
+author: HenryJr
 description: > # this means to ignore newlines until "baseurl:"
-  BugOS Linux
-url: "https://bugoslinux.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
+  beNice17 is a Jekyll theme. Suitable for personal Websites & Blogs.
+url: "https://bugoslinux.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/bugoslinux" # the subpath of your site, e.g. /blog
 
 includes_dir: .
 
@@ -22,7 +22,7 @@ shareimg: assets/images/sharing-imgs/beNice17.jpg # default sharing img
 bigimg: images/patterns/triangular.png # default big img (header image(s))
 fb_app_id: 12345 # Facebook app id
 
-timezone: "-0300"
+timezone: "+0700"
 permalink: posts/:title.html
 
 # Build settings
