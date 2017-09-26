@@ -1,34 +1,25 @@
-# Welcome to beNice17 - A Simple Jekyll theme by Viet Anh Nguyen
-# Website: vietanhdev.com
+permalink: /:year:month:day/:title
+url: #Your url here
+baseurl:
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: BugOS Linux # Title of your Website. Eg: Viet Anh's Website
-email: dropall@email.com # Your email
-contact-email: dropall@email.com # Email for contact page. Can be your email.
-author: HenryJr
-description: > # this means to ignore newlines until "baseurl:"
-  beNice17 is a Jekyll theme. Suitable for personal Websites & Blogs.
-url: "https://bugoslinux.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+# variables
+name: BugOS
+description: BugOS Linux Distro
+google_verification: null
 
-includes_dir: .
 
-# Sharing settings
-shareimg: assets/images/sharing-imgs/beNice17.jpg # default sharing img
-bigimg: images/patterns/triangular.png # default big img (header image(s))
-fb_app_id: 12345 # Facebook app id
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
 
-timezone: "-0300"
-permalink: posts/:title.html
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
 
-# Build settings
+# Markdown
 markdown: kramdown
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true

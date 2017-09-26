@@ -1,99 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>BugOS Linux</title>
-    <description>beNice17 is a Jekyll theme. Suitable for personal Websites &amp; Blogs.
-</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Cấu hình Emacs để lập trình C</title>
-        <description>
-          
-          Link hướng dẫn cài đặt và sử dụng các chức năng: http://tuhdo.github.io/c-ide.html Sau đây là vài thứ cơ bản ko cần đọc cái bên trên cài và dùng luôn đã » Anh em thực hiện cài đặt: Mở Terminal, gõ lệnh: git clone https://github.com/tuhdo/emacs-c-ide-demo.git ~/.emacs.d Nếu hiện thông báo đã tồn...
-        </description>
-        <pubDate>Fri, 02 Sep 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/posts/cau-hinh-emacs-de-lap-trinh-c.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/cau-hinh-emacs-de-lap-trinh-c.html</guid>
-      </item>
-    
-      <item>
-        <title>Cấu trúc rẽ nhánh trong C</title>
-        <description>
-          
-          Cấu trúc rẽ nhánh trong mỗi ngôn ngữ lập trình luôn luôn là một thành phần quan trọng. Đó là thành phần cơ bản tạo nên hầu hết các thuật toán hiện đại. Nếu bạn muốn mô tả một đoạn chương trình kiểu như: Nếu gặp điều kiện C thì...
-        </description>
-        <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/posts/cau-truc-re-nhanh.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/cau-truc-re-nhanh.html</guid>
-      </item>
-    
-      <item>
-        <title>Toán tử trong C</title>
-        <description>
-          
-          Định nghĩa toán tử trong [Wikipedia]: Trong toán học, một toán tử (tiếng Anh operator, phân biệt với operation - phép toán) là một hàm, thông thường có một vai trò quan trọng trong một lĩnh vực nào đấy. Chẳng hạn trong đại số tuyến tính có “toán tử tuyến...
-        </description>
-        <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/posts/toan-tu-trong-c.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/toan-tu-trong-c.html</guid>
-      </item>
-    
-      <item>
-        <title>Biến, hằng và nhập xuất dữ liệu trong C</title>
-        <description>
-          
-          1. Biến, hằng: Biến, hằng giống như những chiếc hộp có tên riêng mà chúng ta có thể để dữ liệu vào và mang ra mỗi khi chúng ta cần sử dụng. Biến khác hằng ở chỗ giá trị lưu trữ trong biến có thể thay đổi trong quá trình...
-        </description>
-        <pubDate>Thu, 28 Jul 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/posts/bien-hang-va-nhap-xuat-du-lieu-trong-c.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/bien-hang-va-nhap-xuat-du-lieu-trong-c.html</guid>
-      </item>
-    
-      <item>
-        <title>Cấu trúc chương trình C cơ bản</title>
-        <description>
-          
-          Các thành phần của một chương trình C cơ bản bao gồm: Các lệnh tiền xử lí Các hàm Các biến Các lệnh và biểu thức Các comment (ghi chú về code giúp ích cho công tác bảo trì và nâng cấp) Chúng ta hãy cùng nghiên cứu chương trình...
-        </description>
-        <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/posts/cau-truc-chuong-trinh-c-co-ban.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/cau-truc-chuong-trinh-c-co-ban.html</guid>
-      </item>
-    
-      <item>
-        <title>Cài đặt Geany – gcc làm môi trường soạn thảo và biên dịch ngôn ngữ C trên Ubuntu</title>
-        <description>
-          
-          Trong bài viết này Việt Anh sẽ hướng dẫn các bạn cài Geany và gcc để soạn thảo và biên dịch chương trình viết bằng ngôn ngữ C trên Linux (cụ thể ở đây là hệ điều hành Ubuntu). 1.Trước hết bạn phải tải và cài đặt Geany: Mở Terminal...
-        </description>
-        <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/posts/cai-dat-geany-gcc-bien-dich-c-tren-linux-ubuntu.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/cai-dat-geany-gcc-bien-dich-c-tren-linux-ubuntu.html</guid>
-      </item>
-    
-      <item>
-        <title>Thiết lập Sublime Text 3 để biên dịch và chạy ngôn ngữ C</title>
-        <description>
-          
-          1. Trước hết bạn phải tải và cài đặt Sublime Text 3: Xem hướng dẫn cài đặt Sublime text 3. 2. Tiếp đó cài đặt gcc để biên dịch ngôn ngữ c: Mở Terminal (Ctrl + Alt +t) và gõ lần lượt các lệnh sau để cài đặt gói build-essential:...
-        </description>
-        <pubDate>Tue, 26 Jul 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/posts/thiet-lap-sublime-text-3-de-bien-dich-va-chay-ngon-ngu-c.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/thiet-lap-sublime-text-3-de-bien-dich-va-chay-ngon-ngu-c.html</guid>
-      </item>
-    
-      <item>
-        <title>Giới thiệu serie học lập trình C</title>
-        <description>
-          
-          Giới thiệu về ngôn ngữ C từ Wikipedia: Ngôn ngữ lập trình C là một ngôn ngữ mệnh lệnh được phát triển từ đầu thập niên 1970 bởi Dennis Ritchie để dùng trong hệ điều hành UNIX. Từ đó, ngôn ngữ này đã lan rộng ra nhiều hệ điều hành...
-        </description>
-        <pubDate>Tue, 26 Jul 2016 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/posts/gioi-thieu-serie-hoc-lap-trinh-c.html</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/gioi-thieu-serie-hoc-lap-trinh-c.html</guid>
-      </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator>
+<link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://localhost:4000/" rel="alternate" type="text/html" />
+<updated>2017-09-26T14:02:07+00:00</updated>
+<id>http://localhost:4000/</id>
+<subtitle>beNice17 is a Jekyll theme. Suitable for personal Websites &amp; Blogs.
+</subtitle>
+<author>
+<name>HenryJr</name>
+</author>
+</feed>

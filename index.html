@@ -1,26 +1,8 @@
 ---
-layout: page
-js:
-  - "assets/scripts/homepage.js"
-meta-description: "Distro Linux BugOS"
+layout: default
 ---
-<img src="assets/images/homepage.png" alt="Homepage icon" style="margin: 0 auto; display: block">
-<h2 style="text-align: center">Fork this distro BugOS > FerenOS > Mint > Ubuntu > Debian.</h2>
-
-<div class="hello-world">
-
-	<h2 verlang="en">Contact Info</h2>
-
-	<i class="fa fa-github fa-lg" aria-hidden="true"></i>
-	<b>Github:</b> <a href="https://bugoslinux.github.io/">https://bugoslinux.github.io/</a><br><br>
-
-	<i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
-	<b>Telegram:</b> <a href="https://telegram.me/joinchat/CYyDAT0Jg_EVAEedD9qgsw" target="_blank">Group Linux</a><br><br>
-
-</div>
-
-<!--<h2>blog</h2>-->
-
-<!--{% for post in site.posts limit:5 %}  -->
-    <!--<p>&gt;&gt; <span style="font-size: 18px; font-weight: bold;"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span></p>-->
-<!--{% endfor %}-->
+<ul>
+	{% for post in site.posts %}
+	<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
